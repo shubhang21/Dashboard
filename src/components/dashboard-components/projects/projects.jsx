@@ -29,12 +29,12 @@ const Projects = () => {
                     </div>
                     <div className="ml-auto d-flex no-block align-items-center">
                         <div className="dl">
-                            <Input type="select" className="custom-select">
+                            {/* <Input type="select" className="custom-select">
                                 <option value="0">Monthly</option>
                                 <option value="1">Daily</option>
                                 <option value="2">Weekly</option>
                                 <option value="3">Yearly</option>
-                            </Input>
+                            </Input> */}
                         </div>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ const Projects = () => {
                         <tr>
                             <td>
                                 <div className="d-flex no-block align-items-center">
-                                    <div className="mr-2"><img src={img1} alt="user" className="rounded-circle" width="45" /></div>
+                                    <div className="mr-2"></div>
                                     <div className="">
                                         <h5 className="mb-0 font-16 font-medium">Hanna Gover</h5><span>hgover@gmail.com</span></div>
                                 </div>
@@ -70,7 +70,7 @@ const Projects = () => {
                         <tr>
                             <td>
                                 <div className="d-flex no-block align-items-center">
-                                    <div className="mr-2"><img src={img2} alt="user" className="rounded-circle" width="45" /></div>
+                                    <div className="mr-2"></div>
                                     <div className="">
                                         <h5 className="mb-0 font-16 font-medium">Daniel Kristeen</h5><span>Kristeen@gmail.com</span></div>
                                 </div>
@@ -87,7 +87,7 @@ const Projects = () => {
                         <tr>
                             <td>
                                 <div className="d-flex no-block align-items-center">
-                                    <div className="mr-2"><img src={img3} alt="user" className="rounded-circle" width="45" /></div>
+                                    <div className="mr-2"></div>
                                     <div className="">
                                         <h5 className="mb-0 font-16 font-medium">Julian Josephs</h5><span>Josephs@gmail.com</span></div>
                                 </div>
@@ -104,7 +104,7 @@ const Projects = () => {
                         <tr>
                             <td>
                                 <div className="d-flex no-block align-items-center">
-                                    <div className="mr-2"><img src={img4} alt="user" className="rounded-circle" width="45" /></div>
+                                    <div className="mr-2"></div>
                                     <div className="">
                                         <h5 className="mb-0 font-16 font-medium">Jan Petrovic</h5><span>hgover@gmail.com</span></div>
                                 </div>
